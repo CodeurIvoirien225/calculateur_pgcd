@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+   <html lang="fr">
+           <!--HEAD-->
+             <head>
+                <title> PGCD Pro </title>
+                   <meta charset="utf-8">
+                   <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+                   <link rel="stylesheet" href="sous_dossier/calculPgcd.css">
+                   <script src="sous_dossier/calculPgcd.js" defer></script>
+
+             </head>
+
+                  <!--BODY-->
+                   <body>
+                        <!--HEADER-->
+                           <header>
+                        <div> <h1>PGCD pro</h1></div>
+                        <div class="introduction">
+                            Cette fonctionnalité vous permet de calculer rapidement et facilement <br>
+                             le Plus Grand Commun Diviseur (PGCD) de deux nombres. Le PGCD est le plus grand nombre <br>
+                              entier qui peut diviser deux nombres sans laisser de reste, et il est couramment <br>
+                             utilisé en mathématiques pour simplifier les fractions ou résoudre des équations.
+                        </div> <br>
+                        <div class="divChamps"> <br>
+                            <h2 class="Calculateur">  Calculateur PGCD </h2> <br>
+
+                            <fieldset> 
+                                <legend> <h3>Remplissez les champs ci-dessous </h3> 
+                                </legend>
+                            <form action="">
+                                
+                        <span class="premierNombre"> 
+                            <!--Le premier nombre-->    
+                            <label for="premier"> Entrez le premier nombre :</label>
+                            <input type="number" required id="premier" name="premier" placeholder="Le premier nombre "> </span> <br> <br>
+                            <!--le deuxième nombre-->
+                            <label for="deuxième">  Entrez le deuxième nombre :</label>
+                            <input type="number" required id="deuxième" name="deuxième" placeholder="Le deuxième nombre">
+
+                            <!--le bouton valider pour la soumission du formulaire-->
+                            <button class="bouton_valider"> Valider</button> <br> <br>
+                            <!-- div pour afficher le resultat-->
+                             <div class="pgcd">   <span class="valeur_pgcd"></span></div>
+
+
+
+                            </form>
+                            </fieldset>
+                        </div>
+
+                           </header>
+                                 
+                                    <!--MAIN-->
+                                    <main>
+
+                                    </main>
+
+                                       <!--FOOTER-->
+                                       <footer>
+                                        
+                                       </footer>
+                   </body>
+
+   </html>

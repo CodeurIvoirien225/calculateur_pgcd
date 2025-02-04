@@ -1,0 +1,86 @@
+body{
+    margin: 8%;
+}
+
+.introduction{
+    font-size: 1.3em;
+}
+
+.divChamps{
+    border: solid gray;
+    
+    
+}
+
+.Calculateur {
+    text-align: center;
+    color: rgb(100, 90, 90);
+    border-bottom: solid;
+    margin: 2%;   
+    border-color: rgb(133, 179, 64);
+
+    
+}
+
+
+
+fieldset {
+    margin: 3%;
+
+}
+
+form{
+    font-size: 1.5em;
+    
+    
+    
+}
+input {
+    font-size: 1em;
+    display: inline-flex;
+    border: solid 2px gray;
+    
+}
+
+.premierNombre {
+    margin-left: 1.6%;
+}
+button {
+    font-size: 1em;
+}
+
+.pgcd {
+    text-align: center;
+}
+
+
+/* utilisation du media querie */
+
+@media (max-width:768px) {
+    body{
+        font-size: 1em;
+        
+    }
+    
+}
+
+
+@media (max-width:1080px) {
+    body{
+        font-size: 1.3em;
+    }
+    
+}
+
+
+@media (max-width:540px) {
+    body{
+        font-size: 0.5em;
+        
+    }
+    
+}
+
+
+
+
